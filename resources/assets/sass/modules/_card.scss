@@ -1,0 +1,45 @@
+.card {
+  padding: 18px;
+  display: flex;
+}
+
+.card-title {
+  @extend .headlineTypography;
+
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  margin: 0 0 .5em 0;
+  padding: 0;
+
+  a {
+    color: $botdot;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card-text {
+  margin: 0 0 .5em 0;
+  padding: 0;
+/*   font-family: "Josefin Sans";
+  font-weight: 300; */
+  font-size: 1.5rem;
+
+  a {
+    color: $botdot;
+  }
+}
+
+.card-icon {
+  padding-right: 10px;
+  img {
+    width: 42px;
+  }
+}
+
+.card-feature-img  img {
+  @extend .img-responsive;
+}

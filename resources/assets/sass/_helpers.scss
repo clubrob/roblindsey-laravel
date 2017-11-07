@@ -1,0 +1,100 @@
+//Base Styles
+.section {
+    min-height: 100vh;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 3rem;
+}
+
+//Utility Styles
+.divider {
+    margin: 0 auto;
+    height: 22px;
+    width: 22px;
+    padding: 50px 0;
+    background-image: url(/images/botdot.svg);
+    background-size: 22px 22px;   
+    background-repeat: no-repeat;
+    background-position-y: center; 
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+.thumbnail {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 2px;
+}
+.small {
+    font-size: .8em;
+}
+.button {
+    cursor: pointer;
+    margin: 0 auto;
+    height: 3.5rem;
+    padding-bottom: calc(.375em - 1px);
+    padding-left: calc(.625em - 1px);
+    padding-right: calc(.625em - 1px);
+    padding-top: calc(.375em - 1px);
+    color: #fff;
+    background-color: lighten($botdot, 10%);
+    border-color: transparent;
+    border-radius: 4px;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+
+    &:hover {
+        background-color: darken($botdot, 5%);
+    }
+}
+
+//Misc
+.section-title {
+    margin-top: 0;
+    text-align: center;
+    font-size: 3.6rem;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255,255,255,.8);
+    height: 50px;
+}
+
+.section-subtitle {
+    text-align: center;
+    text-transform: initial;
+}
+
+.wordmark {
+    img {
+        @extend .img-responsive;
+    }
+    padding: 2rem;
+    background-color: rgba($botdot, .7);
+    margin-bottom: 8rem;
+}
+
+//Large phone
+@media all and (min-width: $brkLgPhone) {  }
+
+//Tablet
+@media all and (min-width: $brkTab) {  } 
+
+//Medium Desktop
+@media all and (min-width: $brkMdDesk) { 
+    .container {
+        max-width: 1000px;
+        padding: 0;
+    }
+
+    .wordmark {
+        padding: 5rem;
+    }
+} 
+//Large desktop
+@media all and (min-width: $brkLgDesk) { 
+
+ } 

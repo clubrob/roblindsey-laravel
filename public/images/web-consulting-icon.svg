@@ -1,0 +1,41 @@
+<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>web-consulting-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-48 20)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 48 -20L 304 -20L 304 236L 48 236L 48 -20Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="web-consulting-icon" clip-path="url(#clip-0)">
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(57 -11)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(57 -11)" fill="#4F4F4F"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(137 0)" fill="#4F4F4F"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="matrix(-1 0 0 -1 217 215)" fill="#4F4F4F"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_stroke" transform="matrix(0 -1 1 0 70 148)" fill="#4F4F4F"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_stroke" transform="matrix(0 1 -1 -0 283 68)" fill="#4F4F4F"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 238 119C 238 184.722 184.722 238 119 238C 53.2781 238 0 184.722 0 119C 0 53.2781 53.2781 0 119 0C 184.722 0 238 53.2781 238 119Z"/>
+<path id="path1_stroke_2x" d="M 218 119C 218 173.676 173.676 218 119 218L 119 258C 195.768 258 258 195.768 258 119L 218 119ZM 119 218C 64.3238 218 20 173.676 20 119L -20 119C -20 195.768 42.2324 258 119 258L 119 218ZM 20 119C 20 64.3238 64.3238 20 119 20L 119 -20C 42.2324 -20 -20 42.2324 -20 119L 20 119ZM 119 20C 173.676 20 218 64.3238 218 119L 258 119C 258 42.2324 195.768 -20 119 -20L 119 20Z"/>
+<path id="path2_stroke" d="M 16.7001 -5.91672C -1.51222 18.8984 -9.88095 63.1912 -9.99874 105.882C -10.1168 148.671 -1.95902 193.843 16.5272 220.674L 32.9966 209.326C 18.0036 187.565 9.88675 147.412 10.0012 105.937C 10.1159 64.3626 18.4868 25.4514 32.8237 5.91672L 16.7001 -5.91672Z"/>
+<path id="path3_stroke" d="M 16.7266 -5.95265C -1.50932 18.6635 -9.8809 62.5864 -9.99874 104.896C -10.1168 147.305 -1.95624 192.096 16.5521 218.71L 32.9717 207.29C 18.0008 185.764 9.8868 146.024 10.0012 104.952C 10.1158 63.7809 18.4839 25.2738 32.7972 5.95265L 16.7266 -5.95265Z"/>
+</defs>
+</svg>

@@ -1,0 +1,24 @@
+.tag-wrap {
+    h5 {
+        margin: 0 0 0 .5rem;
+    }
+}
+.tags {
+    span {
+        a {
+            display: inline-block;
+            font-size: 1.2rem;
+            line-height: 1;
+            padding: .8rem 1rem;
+            margin: .5rem;
+            background: $botdot;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                background: darken($botdot, 20%);
+            }
+        }
+    }
+}

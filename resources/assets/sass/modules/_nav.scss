@@ -1,0 +1,92 @@
+.navHidden {
+    transform: translateX(110%);
+}
+.navCover {
+    overflow-x: hidden;
+}
+.navbar {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .container { 
+        padding: 0;
+        top: 0;
+        height: 50px;
+        background-color: transparent;
+        text-align: right;
+
+        display: flex;
+        justify-content: flex-end;
+    }    
+}
+.navbar-menu {
+    list-style-type: none;
+    transition: .2s;
+    background-color: rgba($botdot, .7);
+    height: 50px;
+    width: 100%;
+
+    font-size: 1.2rem;    
+
+    li {
+        display: inline-block;
+
+        a {
+            @extend .headlineTypography;
+            
+            display: block;
+            height: 50px;
+            text-decoration: none;
+            padding: 1em 1.3em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 2;
+            color: #fff;
+        }
+    }
+}
+.botdot-toggle {
+    background-color: rgba(78, 78, 78, .7);
+    height: 50px;
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        height: 50px;
+
+        svg circle {
+            fill: #fff;//lighten($botdot, 20%);
+        }
+    }
+}
+.botdotOpen {
+    background-color: rgba(0,0,0,.7);
+    a svg circle {
+        fill: $botdot;
+        /* stroke-width: 1px;
+        stroke: $botdot;//darken($botdot, 20%); */
+    }
+}
+
+//Base phone
+@media all and (min-width: $brkMdPhone) { 
+    .navbar-menu {
+        font-size: 1.5rem;    
+    
+        li a {
+            padding: 1em 1.3em;
+            line-height: inherit;
+        }
+    }
+ }
+
+//Desktop
+@media all and (min-width: $brkMdDesk) { 
+    .navbar-menu {
+        background-color: rgba($botdot, .7);
+        //border-top-left-radius: 25px;
+        //border-bottom-left-radius: 25px;
+    }
+} 
