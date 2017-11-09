@@ -2,6 +2,7 @@
     <section class="section contact" id="contact">
         <div class="container">
             <h2 class="section-title">Contact</h2>
+            <p>Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say "Hi"!</p>
             <div class="row">
                 <form method="post" action="/" class="form contact-form">
                     <div class="form-element">

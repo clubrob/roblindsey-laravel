@@ -3,14 +3,14 @@
         <div class="container">
             <h2 class="section-title">Blog</h2>
             <div class="row">
-                <div class="col40">
+                <div class="col30">
                     <p>
-                        <img src="" alt="">
+                        <a href="/blog"><img class="img-responsive thumbnail" src="/images/asheville_with_the_missus.jpg" alt="Asheville with the missus"></a>
                     </p>
                 </div>
-                <div class="col60">
+                <div class="col70">
                     <p>
-                        <a href="/blog">Link to Blog</a> Velit enim minim dolore elit irure reprehenderit irure cillum esse quis ipsum duis magna esse. Adipisicing ea enim pariatur voluptate velit occaecat adipisicing qui aliquip. Eu eu et ea excepteur consectetur ad duis et.
+                        I put together a <a href="/blog">blog</a> to share my adventures in web development and as a citizen of the lovely western North Carolina mountains. My wife Caitlin and I enjoy exploring the area and finding interesting things to see and do. I’ll let you know about some of them. I’ll also be using these posts as a playground of sort for web development experiments. And finally, I’ll be sharing my knowledge as I continue to learn more (and more and more) about the wide world of web development. Hopefully some of my experiences can be helpful to you on your own journey.
                     </p>
                 </div>
             </div>

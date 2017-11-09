@@ -535,6 +535,15 @@ h6 {
   font-size: 2rem;
 }
 
+a {
+  color: #3D9F5E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 @media all and (min-width: 991px) {
   h1 {
     font-size: 4.5rem;
@@ -700,7 +709,7 @@ h6 {
 }
 
 .form {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -732,12 +741,6 @@ h6 {
   -webkit-box-shadow: 0 0 4px #3D9F5E;
           box-shadow: 0 0 4px #3D9F5E;
   border: 1px solid #77cb93;
-}
-
-@media all and (min-width: 991px) {
-  .form {
-    width: 50%;
-  }
 }
 
 @media all and (min-width: 415px) {
@@ -1013,6 +1016,12 @@ h6 {
 
 .tags span a:hover {
   background: #215532;
+}
+
+@media all and (min-width: 991px) {
+  .contact .container {
+    width: 50%;
+  }
 }
 
 .section.home {

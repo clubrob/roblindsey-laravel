@@ -5,7 +5,8 @@
             <div class="row">
                 <div class="col70">
                     <p>
-                        Anim consectetur incididunt minim veniam mollit cupidatat dolor esse tempor. Labore quis consequat tempor veniam eiusmod mollit eiusmod sint eiusmod eiusmod amet Lorem ipsum. Ullamco culpa ea ex elit cupidatat labore eiusmod nulla commodo aliquip deserunt elit. Ea adipisicing tempor sunt ullamco cupidatat pariatur cupidatat id ullamco ullamco labore eiusmod. Exercitation commodo ad aliqua qui aliqua eu ex amet et laborum. Fugiat incididunt mollit quis consequat nulla ad consequat. Deserunt cupidatat eu elit officia nisi aute excepteur et mollit consequat elit tempor velit.
+                        Howdy, I’m Rob Lindsey. I’m a web technologist in the western North Carolina mountains. I’ve lived in the Carolinas my whole life, and I’ve been working on the web for over 10 years. I have a deep and broad knowledge of what makes it all go. I’d love to work with you to make your business goals a reality. I can speak server, frontend, marketing, usability, accessibility, and design. </p><p>If you need a full-stack contractor to put it all together for you or a team member to fill in on a larger project, I’m your guy. My stack is PHP (<em>Laravel</em>), <em>MySQL</em>, CSS (<em>Sass</em>, <em>Bootstrap</em>, <em>Bulma</em>), and Javascript (<em>Vue</em>, <em>React</em>, <em>jQuery</em>, <em>npm</em>, <em>Webpack</em>, <em>Gulp</em>), but I have some experience with the Microsoft stack (<em>C#</em>, <em>.NET</em>, <em>MSSQL</em>), as well. In my spare time, I like exploring the Asheville area, going to concerts, and reading fiction. 
+                        </p><p><a href="#contact">Drop me a line</a>, and let’s talk!
                     </p>
                 </div>
                 <div class="col30">
@@ -21,7 +22,7 @@
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Wordpress</h3>
-                            <p class="card-text">Cillum ad laborum minim adipisicing quis ex. Esse ullamco est incididunt ipsum in id eu aliqua nostrud exercitation officia. Laborum aute eu esse incididunt. Sit nisi est culpa sint enim ea aute nostrud. Ad proident exercitation magna sit ad eu minim consequat est nostrud. Et veniam veniam do labore eu adipisicing.</p>
+                            <p class="card-text">One of the most popular systems for managing your web content, Wordpress’s open source software powers the web presence of thousands of small and medium businesses throughout the world. I can help you maintain, upgrade, or customize your existing Wordpress project. Or we can start from scratch and build something beautiful.</p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +33,7 @@
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Drupal</h3>
-                            <p class="card-text">Cillum ad laborum minim adipisicing quis ex. Esse ullamco est incididunt ipsum in id eu aliqua nostrud exercitation officia. Laborum aute eu esse incididunt. Sit nisi est culpa sint enim ea aute nostrud. Ad proident exercitation magna sit ad eu minim consequat est nostrud. Et veniam veniam do labore eu adipisicing.</p>
+                            <p class="card-text">Drupal is a powerful, highly customizable content management platform used by some of the highest-profile organizations in the world, including the United States government. I can optimize or customize your existing Drupal project, or we can build one from the ground up that meets your exact business needs.</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +46,7 @@
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Custom Projects</h3>
-                            <p class="card-text">Cillum ad laborum minim adipisicing quis ex. Esse ullamco est incididunt ipsum in id eu aliqua nostrud exercitation officia. Laborum aute eu esse incididunt. Sit nisi est culpa sint enim ea aute nostrud. Ad proident exercitation magna sit ad eu minim consequat est nostrud. Et veniam veniam do labore eu adipisicing.</p>
+                            <p class="card-text">If you have an idea that doesn’t fit into an existing content management system, I can build you a custom solution. Often, small and medium businesses simply want a one-page website to highlight their product or service with bold design and an engaging user experience… and a website that can be found on Google. Let me handle all that for you.</p>
                         </div>
                     </div>
                 </div>
@@ -56,7 +57,7 @@
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Web Technology Consulting</h3>
-                            <p class="card-text">Cillum ad laborum minim adipisicing quis ex. Esse ullamco est incididunt ipsum in id eu aliqua nostrud exercitation officia. Laborum aute eu esse incididunt. Sit nisi est culpa sint enim ea aute nostrud. Ad proident exercitation magna sit ad eu minim consequat est nostrud. Et veniam veniam do labore eu adipisicing.</p>
+                            <p class="card-text">The pace of change in web technologies can be daunting if it isn’t your full-time job to keep up with it. Let my nerd brain help. I can walk you through the process of setting up your own web hosting environment that you can take over after I’m done. Or I can help you setup your custom domain name at an all-in-one web service like Squarespace or Wix. I like talking about web tech, and my mom says I explain it well.</p>
                         </div>
                     </div>
                 </div>
