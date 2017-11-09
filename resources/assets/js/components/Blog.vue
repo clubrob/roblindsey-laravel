@@ -10,7 +10,7 @@
                 </div>
                 <div class="col60">
                     <p>
-                        Velit enim minim dolore elit irure reprehenderit irure cillum esse quis ipsum duis magna esse. Adipisicing ea enim pariatur voluptate velit occaecat adipisicing qui aliquip. Eu eu et ea excepteur consectetur ad duis et.
+                        <a href="/blog">Link to Blog</a> Velit enim minim dolore elit irure reprehenderit irure cillum esse quis ipsum duis magna esse. Adipisicing ea enim pariatur voluptate velit occaecat adipisicing qui aliquip. Eu eu et ea excepteur consectetur ad duis et.
                     </p>
                 </div>
             </div>

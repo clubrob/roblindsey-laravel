@@ -33752,8 +33752,9 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "col60" }, [
         _c("p", [
+          _c("a", { attrs: { href: "/blog" } }, [_vm._v("Link to Blog")]),
           _vm._v(
-            "\n                    Velit enim minim dolore elit irure reprehenderit irure cillum esse quis ipsum duis magna esse. Adipisicing ea enim pariatur voluptate velit occaecat adipisicing qui aliquip. Eu eu et ea excepteur consectetur ad duis et.\n                "
+            " Velit enim minim dolore elit irure reprehenderit irure cillum esse quis ipsum duis magna esse. Adipisicing ea enim pariatur voluptate velit occaecat adipisicing qui aliquip. Eu eu et ea excepteur consectetur ad duis et.\n                "
           )
         ])
       ])
