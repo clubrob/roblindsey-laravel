@@ -31,6 +31,8 @@ Route::delete('blog/photo/{id}', 'PhotoController@destroy');
 /* Route::get('projects/create', 'ProjectController@create');
 Route::post('projects', 'ProjectController@store'); */
 
+Route::post('contact', 'MailController@contact');
+
 Route::resource('page', 'PageController');
 
 //Dashboard

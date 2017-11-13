@@ -33465,185 +33465,214 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "section",
+    { staticClass: "section about", attrs: { id: "about" } },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("h2", { staticClass: "section-title" }, [_vm._v("About")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col70" }, [
+            _c("p", [
+              _vm._v(
+                "\n                    Howdy, I’m Rob Lindsey. I’m a web technologist in the western North Carolina mountains. I’ve lived in the Carolinas my whole life, and I’ve been working on the web for over 10 years. I have a deep and broad knowledge of what makes it all go. I’d love to work with you to make your business goals a reality. I can speak server, frontend, marketing, usability, accessibility, and design. "
+              )
+            ]),
+            _vm._m(0),
+            _c("p", [
+              _c(
+                "a",
+                {
+                  directives: [
+                    {
+                      name: "scroll-to",
+                      rawName: "v-scroll-to",
+                      value: "#contact",
+                      expression: "'#contact'"
+                    }
+                  ],
+                  attrs: { href: "/#contact" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      _vm.hideNav($event)
+                    }
+                  }
+                },
+                [_vm._v("Drop me a line")]
+              ),
+              _vm._v(", and let’s talk!\n                ")
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(1)
+        ]),
+        _vm._v(" "),
+        _c("h4", { staticClass: "section-subtitle" }, [_vm._v("Services")]),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _c("div", { staticClass: "divider" })
+      ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "section about", attrs: { id: "about" } },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("h2", { staticClass: "section-title" }, [_vm._v("About")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col70" }, [
-              _c("p", [
-                _vm._v(
-                  "\n                    Howdy, I’m Rob Lindsey. I’m a web technologist in the western North Carolina mountains. I’ve lived in the Carolinas my whole life, and I’ve been working on the web for over 10 years. I have a deep and broad knowledge of what makes it all go. I’d love to work with you to make your business goals a reality. I can speak server, frontend, marketing, usability, accessibility, and design. "
-                )
-              ]),
-              _c("p", [
-                _vm._v(
-                  "If you need a full-stack contractor to put it all together for you or a team member to fill in on a larger project, I’m your guy. My stack is PHP ("
-                ),
-                _c("em", [_vm._v("Laravel")]),
-                _vm._v("), "),
-                _c("em", [_vm._v("MySQL")]),
-                _vm._v(", CSS ("),
-                _c("em", [_vm._v("Sass")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("Bootstrap")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("Bulma")]),
-                _vm._v("), and Javascript ("),
-                _c("em", [_vm._v("Vue")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("React")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("jQuery")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("npm")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("Webpack")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("Gulp")]),
-                _vm._v(
-                  "), but I have some experience with the Microsoft stack ("
-                ),
-                _c("em", [_vm._v("C#")]),
-                _vm._v(", "),
-                _c("em", [_vm._v(".NET")]),
-                _vm._v(", "),
-                _c("em", [_vm._v("MSSQL")]),
-                _vm._v(
-                  "), as well. In my spare time, I like exploring the Asheville area, going to concerts, and reading fiction. \n                    "
-                )
-              ]),
-              _c("p", [
-                _c("a", { attrs: { href: "#contact" } }, [
-                  _vm._v("Drop me a line")
-                ]),
-                _vm._v(", and let’s talk!\n                ")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col30" }, [
-              _c("img", {
-                staticClass: "img-responsive thumbnail",
-                attrs: { src: "/images/rob-lindsey.jpg", alt: "Rob Lindsey" }
-              })
-            ])
+    return _c("p", [
+      _vm._v(
+        "If you need a full-stack contractor to put it all together for you or a team member to fill in on a larger project, I’m your guy. My stack is PHP ("
+      ),
+      _c("em", [_vm._v("Laravel")]),
+      _vm._v("), "),
+      _c("em", [_vm._v("MySQL")]),
+      _vm._v(", CSS ("),
+      _c("em", [_vm._v("Sass")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("Bootstrap")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("Bulma")]),
+      _vm._v("), and Javascript ("),
+      _c("em", [_vm._v("Vue")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("React")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("jQuery")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("npm")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("Webpack")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("Gulp")]),
+      _vm._v("), but I have some experience with the Microsoft stack ("),
+      _c("em", [_vm._v("C#")]),
+      _vm._v(", "),
+      _c("em", [_vm._v(".NET")]),
+      _vm._v(", "),
+      _c("em", [_vm._v("MSSQL")]),
+      _vm._v(
+        "), as well. In my spare time, I like exploring the Asheville area, going to concerts, and reading fiction. \n                    "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col30" }, [
+      _c("img", {
+        staticClass: "img-responsive thumbnail",
+        attrs: { src: "/images/rob-lindsey.jpg", alt: "Rob Lindsey" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col50" }, [
+        _c("div", { staticClass: "card img-icon" }, [
+          _c("div", { staticClass: "card-icon" }, [
+            _c("img", {
+              attrs: { src: "/images/wordpress-icon.svg", alt: "Wordpress" }
+            })
           ]),
           _vm._v(" "),
-          _c("h4", { staticClass: "section-subtitle" }, [_vm._v("Services")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col50" }, [
-              _c("div", { staticClass: "card img-icon" }, [
-                _c("div", { staticClass: "card-icon" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "/images/wordpress-icon.svg",
-                      alt: "Wordpress"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h3", { staticClass: "card-title" }, [
-                    _vm._v("Wordpress")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "One of the most popular systems for managing your web content, Wordpress’s open source software powers the web presence of thousands of small and medium businesses throughout the world. I can help you maintain, upgrade, or customize your existing Wordpress project. Or we can start from scratch and build something beautiful."
-                    )
-                  ])
-                ])
-              ])
-            ]),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h3", { staticClass: "card-title" }, [_vm._v("Wordpress")]),
             _vm._v(" "),
-            _c("div", { staticClass: "col50" }, [
-              _c("div", { staticClass: "card img-icon" }, [
-                _c("div", { staticClass: "card-icon" }, [
-                  _c("img", {
-                    attrs: { src: "/images/drupal-icon.svg", alt: "Drupal" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h3", { staticClass: "card-title" }, [_vm._v("Drupal")]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "Drupal is a powerful, highly customizable content management platform used by some of the highest-profile organizations in the world, including the United States government. I can optimize or customize your existing Drupal project, or we can build one from the ground up that meets your exact business needs."
-                    )
-                  ])
-                ])
-              ])
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(
+                "One of the most popular systems for managing your web content, Wordpress’s open source software powers the web presence of thousands of small and medium businesses throughout the world. I can help you maintain, upgrade, or customize your existing Wordpress project. Or we can start from scratch and build something beautiful."
+              )
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col50" }, [
-              _c("div", { staticClass: "card img-icon" }, [
-                _c("div", { staticClass: "card-icon" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "/images/custom-projects-icon.svg",
-                      alt: "Custom Projects"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h3", { staticClass: "card-title" }, [
-                    _vm._v("Custom Projects")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "If you have an idea that doesn’t fit into an existing content management system, I can build you a custom solution. Often, small and medium businesses simply want a one-page website to highlight their product or service with bold design and an engaging user experience… and a website that can be found on Google. Let me handle all that for you."
-                    )
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col50" }, [
-              _c("div", { staticClass: "card img-icon" }, [
-                _c("div", { staticClass: "card-icon" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "/images/web-consulting-icon.svg",
-                      alt: "Web Technology Consulting"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h3", { staticClass: "card-title" }, [
-                    _vm._v("Web Technology Consulting")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "The pace of change in web technologies can be daunting if it isn’t your full-time job to keep up with it. Let my nerd brain help. I can walk you through the process of setting up your own web hosting environment that you can take over after I’m done. Or I can help you setup your custom domain name at an all-in-one web service like Squarespace or Wix. I like talking about web tech, and my mom says I explain it well."
-                    )
-                  ])
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "divider" })
+          ])
         ])
-      ]
-    )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col50" }, [
+        _c("div", { staticClass: "card img-icon" }, [
+          _c("div", { staticClass: "card-icon" }, [
+            _c("img", {
+              attrs: { src: "/images/drupal-icon.svg", alt: "Drupal" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h3", { staticClass: "card-title" }, [_vm._v("Drupal")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(
+                "Drupal is a powerful, highly customizable content management platform used by some of the highest-profile organizations in the world, including the United States government. I can optimize or customize your existing Drupal project, or we can build one from the ground up that meets your exact business needs."
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col50" }, [
+        _c("div", { staticClass: "card img-icon" }, [
+          _c("div", { staticClass: "card-icon" }, [
+            _c("img", {
+              attrs: {
+                src: "/images/custom-projects-icon.svg",
+                alt: "Custom Projects"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h3", { staticClass: "card-title" }, [
+              _vm._v("Custom Projects")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(
+                "If you have an idea that doesn’t fit into an existing content management system, I can build you a custom solution. Often, small and medium businesses simply want a one-page website to highlight their product or service with bold design and an engaging user experience… and a website that can be found on Google. Let me handle all that for you."
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col50" }, [
+        _c("div", { staticClass: "card img-icon" }, [
+          _c("div", { staticClass: "card-icon" }, [
+            _c("img", {
+              attrs: {
+                src: "/images/web-consulting-icon.svg",
+                alt: "Web Technology Consulting"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h3", { staticClass: "card-title" }, [
+              _vm._v("Web Technology Consulting")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(
+                "The pace of change in web technologies can be daunting if it isn’t your full-time job to keep up with it. Let my nerd brain help. I can walk you through the process of setting up your own web hosting environment that you can take over after I’m done. Or I can help you setup your custom domain name at an all-in-one web service like Squarespace or Wix. I like talking about web tech, and my mom says I explain it well."
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -33966,9 +33995,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            csrf: ''
+        };
+    },
     mounted: function mounted() {
+        var meta = document.querySelector('meta[name="csrf-token"]');
+        this.csrf = meta.getAttribute('content');
+        //this.csrf = document.querySelector('meta[name="csrf-token"]')['content‌​'];
         console.log('Component mounted.');
     }
 });
@@ -33981,89 +34019,106 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "section",
+    { staticClass: "section contact", attrs: { id: "contact" } },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("h2", { staticClass: "section-title" }, [_vm._v("Contact")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say \"Hi\"!"
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "form",
+            {
+              staticClass: "form contact-form",
+              attrs: { method: "post", action: "/contact" }
+            },
+            [
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _vm._m(3),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-element" }, [
+                _c("button", { staticClass: "submit-button" }, [
+                  _vm._v("Send Message")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: { type: "hidden", name: "_token" },
+                  domProps: { value: _vm.csrf }
+                })
+              ])
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "divider" })
+      ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "section contact", attrs: { id: "contact" } },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("h2", { staticClass: "section-title" }, [_vm._v("Contact")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say \"Hi\"!"
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c(
-              "form",
-              {
-                staticClass: "form contact-form",
-                attrs: { method: "post", action: "/" }
-              },
-              [
-                _c("div", { staticClass: "form-element" }, [
-                  _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "name-input",
-                    attrs: { type: "text", name: "name" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-element" }, [
-                  _c("label", { attrs: { for: "email" } }, [
-                    _vm._v("Email Address")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "email-input",
-                    attrs: { type: "email", name: "email" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-element" }, [
-                  _c("label", { attrs: { for: "phone" } }, [
-                    _vm._v("Phone Number")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "phone-input",
-                    attrs: { type: "text", name: "phone" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-element" }, [
-                  _c("label", { attrs: { for: "message" } }, [
-                    _vm._v("Message")
-                  ]),
-                  _vm._v(" "),
-                  _c("textarea", {
-                    staticClass: "message-input",
-                    attrs: { name: "message", cols: "30", rows: "10" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-element" }, [
-                  _c("button", { staticClass: "submit-button" }, [
-                    _vm._v("Send Message")
-                  ])
-                ])
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "divider" })
-        ])
-      ]
-    )
+    return _c("div", { staticClass: "form-element" }, [
+      _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "name-input",
+        attrs: { type: "text", name: "name" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-element" }, [
+      _c("label", { attrs: { for: "email" } }, [_vm._v("Email Address")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "email-input",
+        attrs: { type: "email", name: "email" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-element" }, [
+      _c("label", { attrs: { for: "phone" } }, [_vm._v("Phone Number")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "phone-input",
+        attrs: { type: "text", name: "phone" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-element" }, [
+      _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
+      _vm._v(" "),
+      _c("textarea", {
+        staticClass: "message-input",
+        attrs: { name: "message", cols: "30", rows: "10" }
+      })
+    ])
   }
 ]
 render._withStripped = true

@@ -6,7 +6,7 @@
                 <div class="col70">
                     <p>
                         Howdy, I’m Rob Lindsey. I’m a web technologist in the western North Carolina mountains. I’ve lived in the Carolinas my whole life, and I’ve been working on the web for over 10 years. I have a deep and broad knowledge of what makes it all go. I’d love to work with you to make your business goals a reality. I can speak server, frontend, marketing, usability, accessibility, and design. </p><p>If you need a full-stack contractor to put it all together for you or a team member to fill in on a larger project, I’m your guy. My stack is PHP (<em>Laravel</em>), <em>MySQL</em>, CSS (<em>Sass</em>, <em>Bootstrap</em>, <em>Bulma</em>), and Javascript (<em>Vue</em>, <em>React</em>, <em>jQuery</em>, <em>npm</em>, <em>Webpack</em>, <em>Gulp</em>), but I have some experience with the Microsoft stack (<em>C#</em>, <em>.NET</em>, <em>MSSQL</em>), as well. In my spare time, I like exploring the Asheville area, going to concerts, and reading fiction. 
-                        </p><p><a href="#contact">Drop me a line</a>, and let’s talk!
+                        </p><p><a href="/#contact" v-on:click.prevent="hideNav" v-scroll-to="'#contact'">Drop me a line</a>, and let’s talk!
                     </p>
                 </div>
                 <div class="col30">
