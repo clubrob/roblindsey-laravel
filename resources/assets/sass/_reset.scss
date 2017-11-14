@@ -35,6 +35,15 @@ h4 { font-size: 3rem; }
 h5 { font-size: 2.5rem; }
 h6 { font-size: 2rem; }
 
+a {
+    color: $botdot;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 //Large phone
 @media all and (min-width: $brkLgPhone) {  }
 

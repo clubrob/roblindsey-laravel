@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdatePageDetailsTableName extends Migration
+class CreatePagesDetailTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class UpdatePageDetailsTableName extends Migration
      */
     public function up()
     {
-        //
-        Schema::rename('pages_details', 'page_details');
+        Schema::create('page_details', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('page_id');
+            $table->text('body');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -24,6 +28,6 @@ class UpdatePageDetailsTableName extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('page_details');
     }
 }
