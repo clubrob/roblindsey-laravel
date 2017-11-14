@@ -13,9 +13,7 @@
                         <a href="/#about" v-on:click.prevent="hideNav" v-scroll-to="'#about'">About</a>
                     </li><li>
                         <a href="/#blog" v-on:click.prevent="hideNav" v-scroll-to="'#blog'">Blog</a>
-                    </li><!-- <li>
-                        <a href="/#contact" v-on:click.prevent="hideNav" v-scroll-to="'#contact'">Contact</a>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
             <div class="botdot-toggle" v-on:click.prevent="hideNav">
