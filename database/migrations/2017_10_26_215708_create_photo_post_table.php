@@ -17,7 +17,6 @@ class CreatePhotoPostTable extends Migration
             $table->increments('id');
             $table->integer('photo_id');
             $table->integer('post_id');
-            $table->timestamps();
         });
     }
 
