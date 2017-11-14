@@ -6,7 +6,6 @@
         <splash></splash>
         <about></about>
         <blog></blog>
-        <contact></contact>
     </div>
 
     @include('layouts/footer')
