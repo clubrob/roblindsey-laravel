@@ -33,6 +33,12 @@ Route::post('projects', 'ProjectController@store'); */
 
 Route::post('contact', 'MailController@contact');
 
+//temp
+Route::get('temp/contact', function(){
+    return view('temp/contact');
+    }
+);
+
 Route::resource('page', 'PageController');
 
 //Dashboard
