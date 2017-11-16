@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddPostDetailIdColumn extends Migration
+class CreatePostsTagsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class AddPostDetailIdColumn extends Migration
      */
     public function up()
     {
-        //
-        Schema::table('posts', function(Blueprint $table) {
-            $table->integer('post_detail_id');
+        Schema::create('post_tag', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('post_id');
+            $table->integer('tag_id');
         });
     }
 
@@ -26,6 +27,6 @@ class AddPostDetailIdColumn extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('post_tag');
     }
 }

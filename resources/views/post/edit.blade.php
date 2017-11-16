@@ -17,7 +17,7 @@
             ])
         </form>
         <br>
-        <form action="/post/{{ $post->slug }}" method="post">
+        <form action="/blog/post/{{ $post->slug }}" method="post">
             {{ method_field('DELETE') }}
             {{ csrf_field() }}
 

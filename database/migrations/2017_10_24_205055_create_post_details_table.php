@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class DropPostDetailIdColumn extends Migration
+class CreatePostsDetailTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,12 @@ class DropPostDetailIdColumn extends Migration
      */
     public function up()
     {
-        //
-        Schema::table('posts', function (Blueprint $table) {
-            $table->dropColumn('post_detail_id');
+        Schema::create('post_details', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('post_id');
+            $table->text('body');
+            $table->string('summary')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -26,6 +29,6 @@ class DropPostDetailIdColumn extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('post_details');
     }
 }
