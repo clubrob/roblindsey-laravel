@@ -30,7 +30,8 @@ class ContactMessage extends Mailable
      */
     public function build()
     {
-        return $this->from('rob@mail.roblindsey.com')
+        return $this->from('info@mail.roblindsey.com')
+                    ->replyTo('info@roblindsey.com')
                     ->view('email.contactmessage');
     }
 }

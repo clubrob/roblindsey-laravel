@@ -33996,8 +33996,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+    props: ['message'],
     data: function data() {
         return {
             csrf: ''
@@ -34025,6 +34028,14 @@ var render = function() {
     [
       _c("div", { staticClass: "container" }, [
         _c("h2", { staticClass: "section-title" }, [_vm._v("Contact")]),
+        _vm._v(" "),
+        _vm.message
+          ? _c("p", { staticClass: "success-message" }, [
+              _vm._v(_vm._s(_vm.message))
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _c("p", { staticClass: "success-message" }, [_vm._v("Butts")]),
         _vm._v(" "),
         _c("p", [
           _vm._v(
@@ -34077,7 +34088,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "name-input",
-        attrs: { type: "text", name: "name" }
+        attrs: { type: "text", name: "name", required: "" }
       })
     ])
   },
@@ -34090,7 +34101,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "email-input",
-        attrs: { type: "email", name: "email" }
+        attrs: { type: "email", name: "email", required: "" }
       })
     ])
   },
@@ -34103,7 +34114,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "phone-input",
-        attrs: { type: "text", name: "phone" }
+        attrs: { type: "text", name: "phone", required: "" }
       })
     ])
   },
@@ -34116,7 +34127,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("textarea", {
         staticClass: "message-input",
-        attrs: { name: "message", cols: "30", rows: "10" }
+        attrs: { name: "message", cols: "30", rows: "10", required: "" }
       })
     ])
   }

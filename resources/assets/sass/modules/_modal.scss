@@ -1,0 +1,10 @@
+.success-message {
+  position: absolute;
+  background: #efefef;
+  border-radius: 10px;
+  width: 30%;
+  padding: 5rem;
+  margin: 0 auto;
+  transition: opacity 0.5s;
+  opacity: 0;
+}

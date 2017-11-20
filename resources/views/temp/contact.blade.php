@@ -1,8 +1,14 @@
 @extends ('layouts/layout') 
 
 @section ('content')
+    @include('layouts.errors')
+    
     <div id="app">
-        <contact></contact>
+        <contact
+            @if (session('message'))
+                message="{{ session('message') }}"
+            @endif
+        ></contact>
     </div>
 
     @include('layouts/footer')

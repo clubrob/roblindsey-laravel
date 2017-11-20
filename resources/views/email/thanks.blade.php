@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Thank you for your message!</h1>
+  <h2>Thank you for your message!</h2>
   <p>I'll get back to you within 24 hours to talk more about your message, whether you're interested in starting a new project or just want to chat.</p>
   <p>My best,
   <br>
