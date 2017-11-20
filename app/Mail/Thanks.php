@@ -28,6 +28,7 @@ class Thanks extends Mailable
      */
     public function build()
     {
-        return $this->view('email.thanks');
+        return $this->from('rob@mail.roblindsey.com')
+                    ->view('email.thanks');
     }
 }
