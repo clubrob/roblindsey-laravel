@@ -9,6 +9,21 @@
         margin: 0;
     }
 }
+.social {
+    display: flex;
+    background: #efefef;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    
+    div {
+        margin-right: 5px;
+    }
+
+    h5 {
+        margin: 0;
+    }
+}
 .full-post {
     @extend .frontSectionStyles;
 
