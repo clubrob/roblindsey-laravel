@@ -3702,7 +3702,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);
-module.exports = __webpack_require__(65);
+module.exports = __webpack_require__(68);
 
 
 /***/ }),
@@ -3751,6 +3751,7 @@ Vue.component('bloglist', __webpack_require__(55));
 Vue.component('blognav', __webpack_require__(58));
 Vue.component('fullpost', __webpack_require__(61));
 Vue.component('taglist', __webpack_require__(62));
+Vue.component('modal', __webpack_require__(65));
 
 var app = new Vue({
   el: '#app',
@@ -33996,8 +33997,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+    props: ['message', 'showmodal'],
     data: function data() {
         return {
             csrf: ''
@@ -34023,47 +34026,63 @@ var render = function() {
     "section",
     { staticClass: "section contact", attrs: { id: "contact" } },
     [
-      _c("div", { staticClass: "container" }, [
-        _c("h2", { staticClass: "section-title" }, [_vm._v("Contact")]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say \"Hi\"!"
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c(
-            "form",
-            {
-              staticClass: "form contact-form",
-              attrs: { method: "post", action: "/contact" }
-            },
-            [
-              _vm._m(0),
-              _vm._v(" "),
-              _vm._m(1),
-              _vm._v(" "),
-              _vm._m(2),
-              _vm._v(" "),
-              _vm._m(3),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-element" }, [
-                _c("button", { staticClass: "submit-button" }, [
-                  _vm._v("Send Message")
-                ]),
+      _c(
+        "div",
+        { staticClass: "container" },
+        [
+          _c("h2", { staticClass: "section-title" }, [_vm._v("Contact")]),
+          _vm._v(" "),
+          _vm.showmodal
+            ? _c("modal", {
+                attrs: { message: _vm.message },
+                on: {
+                  close: function($event) {
+                    _vm.showmodal = false
+                  }
+                }
+              })
+            : _vm._e(),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say \"Hi\"!"
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "form",
+              {
+                staticClass: "form contact-form",
+                attrs: { method: "post", action: "/contact" }
+              },
+              [
+                _vm._m(0),
                 _vm._v(" "),
-                _c("input", {
-                  attrs: { type: "hidden", name: "_token" },
-                  domProps: { value: _vm.csrf }
-                })
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "divider" })
-      ])
+                _vm._m(1),
+                _vm._v(" "),
+                _vm._m(2),
+                _vm._v(" "),
+                _vm._m(3),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-element" }, [
+                  _c("button", { staticClass: "submit-button" }, [
+                    _vm._v("Send Message")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    attrs: { type: "hidden", name: "_token" },
+                    domProps: { value: _vm.csrf }
+                  })
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "divider" })
+        ],
+        1
+      )
     ]
   )
 }
@@ -34077,7 +34096,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "name-input",
-        attrs: { type: "text", name: "name" }
+        attrs: { type: "text", name: "name", required: "" }
       })
     ])
   },
@@ -34090,7 +34109,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "email-input",
-        attrs: { type: "email", name: "email" }
+        attrs: { type: "email", name: "email", required: "" }
       })
     ])
   },
@@ -34103,7 +34122,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "phone-input",
-        attrs: { type: "text", name: "phone" }
+        attrs: { type: "text", name: "phone", required: "" }
       })
     ])
   },
@@ -34116,7 +34135,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("textarea", {
         staticClass: "message-input",
-        attrs: { name: "message", cols: "30", rows: "10" }
+        attrs: { name: "message", cols: "30", rows: "10", required: "" }
       })
     ])
   }
@@ -34937,6 +34956,147 @@ if (false) {
 
 /***/ }),
 /* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(66)
+/* template */
+var __vue_template__ = __webpack_require__(67)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/partials/Modal.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-521bf9b2", Component.options)
+  } else {
+    hotAPI.reload("data-v-521bf9b2", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 66 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['message']
+});
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("transition", { attrs: { name: "modal" } }, [
+    _c("div", { staticClass: "modal-mask" }, [
+      _c("div", { staticClass: "modal-wrapper" }, [
+        _c("div", { staticClass: "modal-container" }, [
+          _c(
+            "div",
+            { staticClass: "modal-body" },
+            [
+              _vm._t("body", [
+                _vm._v("\n            " + _vm._s(_vm.message) + "\n          ")
+              ])
+            ],
+            2
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "modal-footer" },
+            [
+              _vm._t("footer", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "button",
+                    on: {
+                      click: function($event) {
+                        _vm.$emit("close")
+                      }
+                    }
+                  },
+                  [_vm._v("\n              OK\n            ")]
+                )
+              ])
+            ],
+            2
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-521bf9b2", module.exports)
+  }
+}
+
+/***/ }),
+/* 68 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

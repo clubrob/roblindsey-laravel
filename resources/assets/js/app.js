@@ -34,6 +34,7 @@ Vue.component('bloglist', require('./components/blog/List.vue'));
 Vue.component('blognav', require('./components/blog/BlogNav.vue'));
 Vue.component('fullpost', require('./components/blog/Post.vue'));
 Vue.component('taglist', require('./components/blog/Tags.vue'));
+Vue.component('modal', require('./components/partials/Modal.vue'));
 
 const app = new Vue({
     el: '#app',
