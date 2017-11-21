@@ -7,9 +7,9 @@
   <title>Contact Message</title>
 </head>
 <body>
-  <p>Name: {{ $contact->name }}</p>
-  <p>Email: {{ $contact->email }}</p>
-  <p>Phone: {{ $contact->phone }}</p>
-  <p>Message: {{ $contact->message }}</p>
+  <p>Name: {{ $contact['name'] }}</p>
+  <p>Email: {{ $contact['email'] }}</p>
+  <p>Phone: {{ $contact['phone'] }}</p>
+  <p>Message: {{ $contact['message'] }}</p>
 </body>
 </html>
