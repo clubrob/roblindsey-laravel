@@ -25,7 +25,7 @@ class MailController extends Controller
         //dd($contact);
         
         //\Mail::to('rob@roblindsey.com')->send(new ContactMessage($contact));
-        //\Mail::to($contact['email'])->send(new Thanks);
+        \Mail::to($contact['email'])->send(new Thanks);
 
         return back()->with([
                             'message' =>'Message sent! Rob will get back to you soon!',
