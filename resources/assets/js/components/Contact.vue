@@ -20,8 +20,8 @@
                         <input type="tel" name="phone" class="phone-input" required>
                     </div>
                     <div class="form-element">
-                        <label for="message"><span class="required" title="required">*</span>Message</label>
-                        <textarea class="message-input" name="message" cols="30" rows="10" maxlength="500" required></textarea>
+                        <label for="message"><span class="required" title="required">*</span>Message <span class="small">({{remainingCount}} characters)</span></label>
+                        <textarea v-model="message" v-on:keyup="countdown" class="message-input" name="message" cols="30" rows="10" maxlength="500" required></textarea>
                     </div>
                     <div class="form-element">
                         <button class="submit-button">Send Message</button>
@@ -40,12 +40,18 @@
         data() {
             return {
                 csrf: '',
-                modaltoggle: this.showmodal
+                modaltoggle: this.showmodal,
+                maxCount: 500,
+                remainingCount: 500
             }
         },
         methods: {
             changeValue: function () {
                 this.modaltoggle = !this.modaltoggle
+            },
+            countdown: function() {
+                this.remainingCount = this.maxCount - this.message.length;
+                this.hasError = this.remainingCount < 0;
             }
         },
         mounted() {
