@@ -2,7 +2,7 @@
     <section class="section contact" id="contact">
         <div class="container">
             <h2 class="section-title">Contact</h2>
-            <modal v-bind:message="message" v-if="showmodal" @close="showmodal = false"></modal>
+            <modal v-bind:message="message" v-if="modaltoggle" @close="changeValue"></modal>
             <p>Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say "Hi"!</p>
             <div class="row">
                 <form method="post" action="/contact" class="form contact-form">
@@ -39,6 +39,12 @@
         data() {
             return {
                 csrf: '',
+                modaltoggle: this.showmodal
+            }
+        },
+        methods: {
+            changeValue: function () {
+                this.modaltoggle = !this.modaltoggle
             }
         },
         mounted() {
