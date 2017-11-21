@@ -7,6 +7,7 @@
         <contact
             @if (session('message'))
                 message="{{ session('message') }}"
+                showmodal = {{ session('show') }}
             @endif
         ></contact>
     </div>

@@ -2,8 +2,7 @@
     <section class="section contact" id="contact">
         <div class="container">
             <h2 class="section-title">Contact</h2>
-            <p class="success-message" v-if="message">{{message}}</p>
-            <p class="success-message">Butts</p>
+            <modal v-bind:message="message" v-if="showmodal" @close="showmodal = false"></modal>
             <p>Drop me a note to talk about your business project or just to say hi. I'll get back to you within a day usually, and we can hash it out. Don't be shy; say "Hi"!</p>
             <div class="row">
                 <form method="post" action="/contact" class="form contact-form">
@@ -36,7 +35,7 @@
 
 <script>
     export default {
-        props: ['message'],
+        props: ['message', 'showmodal'],
         data() {
             return {
                 csrf: '',
