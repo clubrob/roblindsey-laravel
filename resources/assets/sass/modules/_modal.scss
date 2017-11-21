@@ -16,7 +16,7 @@
 }
 
 .modal-container {
-  width: 30%;
+  width: 80%;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -27,7 +27,7 @@
 
 .modal-body {
   margin: 20px 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: $botdot;
 }
@@ -58,3 +58,14 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+//Desktop
+@media all and (min-width: $brkMdDesk) { 
+  .modal-container {
+    width: 30%;
+  }
+  
+  .modal-body {
+    font-size: 2rem;
+  }
+} 
