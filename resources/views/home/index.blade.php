@@ -6,6 +6,12 @@
         <splash></splash>
         <about></about>
         <blog></blog>
+        <contact
+            @if (session('message'))
+                message="{{ session('message') }}"
+                showmodal = {{ session('show') }}
+            @endif
+        ></contact>
     </div>
 
     @include('layouts/footer')
