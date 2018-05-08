@@ -1,16 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110000479-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-110000479-1');
-        </script>
-
         <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
